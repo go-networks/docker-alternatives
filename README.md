@@ -1,5 +1,11 @@
 # docker-alternatives
 
+* [LXC/LXD](https://linuxcontainers.org/): The goal is to offer a distro and vendor neutral environment for the development of Linux container technologies.
+<br><br>
+Our main focus is system containers. That is, containers which offer an environment as close as possible as the one you'd get from a VM but without the overhead that comes with running a separate kernel and simulating all the hardware.
+
+* [rkt](https://coreos.com/rkt/), a docker alternative, but with several different design philosophies.
+
 * [Kata Containers](https://katacontainers.io/) is an open source community working to build a secure container runtime with lightweight virtual machines that feel and perform like containers, but provide stronger workload isolation using hardware virtualization technology as a second layer of defense. It is a merge of [Intel Clear Containers](https://github.com/clearcontainers) with [Hyper.sh RunV](https://github.com/hyperhq/runv).
 
 * Google的[gVisor](https://github.com/google/gvisor)【 is a user-space kernel, written in Go, that implements a substantial portion of the Linux system surface. It includes an Open Container Initiative](https://www.opencontainers.org/) (OCI) runtime called `runsc` that provides an isolation boundary between the application and the host kernel. The runsc runtime integrates with Docker and Kubernetes, making it simple to run sandboxed containers.
